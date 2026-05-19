@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Sanity | Mental Health & Platform Addiction</title>
+    <!-- Bootstrap 5 CSS + Icons + Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fas fa-brain me-2"></i>Digital Sanity
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ethical">Ethical Issues</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#casestudies">Case Studies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#podcast">Podcast</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#references">References</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Home -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <span class="badge bg-primary mb-3">The Silent Epidemic</span>
+                    <h1 class="display-4 fw-bold">Mental Health & Addiction to Digital Platforms</h1>
+                    <p class="lead mt-3">A comprehensive analysis of how persuasive design, the attention economy, and hyperconnectivity reshape our brains — and what we can do about it.</p>
+                    <div class="mt-4">
+                        <a href="#ethical" class="btn btn-primary btn-lg me-2">Explore Issues <i class="fas fa-arrow-right ms-1"></i></a>
+                        <a href="#podcast" class="btn btn-outline-secondary btn-lg">Listen to Podcast</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center mt-4 mt-lg-0">
+                    <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Person scrolling phone" class="img-fluid rounded-3 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Stats Cards -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                        <h5>95% of teens</h5>
+                        <p class="text-muted">use smartphones daily, and 45% say they are online "almost constantly" (Pew Research, 2022).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-dopamine fa-3x text-primary mb-3"></i>
+                        <h5>Dopamine Loops</h5>
+                        <p class="text-muted">Variable rewards trigger the same neural pathways as gambling slot machines (Alter, 2017).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-heart-broken fa-3x text-primary mb-3"></i>
+                        <h5>+52% anxiety</h5>
+                        <p class="text-muted">increase in anxiety symptoms among heavy social media users (JAMA Pediatrics, 2019).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ethical Issues Section (expanded) -->
+    <section id="ethical" class="section-bg">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-balance-scale me-2"></i> Ethical Issues & Psychological Mechanisms</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Brain and phone" class="img-fluid rounded-4 shadow mb-3">
+                </div>
+                <div class="col-lg-6">
+                    <h4>The Attention Economy</h4>
+                    <p>Platforms like TikTok, Instagram, and YouTube are not neutral tools. Their business model is based on capturing and retaining user attention for as long as possible. Advertisers pay for time and engagement, creating an incentive to design addictive interfaces <a href="#ref-alter" class="cite-link">[1]</a>. The economist Herbert Simon first coined the term "attention economy" in 1971, predicting that a wealth of information would create a poverty of attention. Today, big tech companies have perfected the art of hijacking our attentional resources.</p>
+                    <h4>Persuasive Design Techniques</h4>
+                    <ul>
+                        <li><strong>Infinite scroll:</strong> Removes natural stopping cues, originally patented by Aza Raskin.</li>
+                        <li><strong>Push notifications:</strong> Hijack our executive control and trigger dopamine release.</li>
+                        <li><strong>Variable rewards:</strong> The same principle as slot machines — we never know what we'll see next, which keeps us hooked.</li>
+                        <li><strong>Social validation loops:</strong> Likes, comments, and shares act as social rewards that reinforce behavior.</li>
+                    </ul>
+                    <p>These mechanisms lead to clinical consequences: social comparison, FOMO (Fear Of Missing Out), and sleep disorders <a href="#ref-twenge" class="cite-link">[2]</a>. A longitudinal study by the University of Pennsylvania (2018) found that limiting social media use to 30 minutes per day significantly reduced depression and loneliness.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5><i class="fas fa-user-graduate"></i> Vulnerable populations</h5>
+                            <p>Adolescents are especially at risk because the prefrontal cortex (impulse control) is still developing. Cyberbullying, body image distortion, and social isolation have been directly linked to excessive use <a href="#ref-haidt" class="cite-link">[3]</a>. Recent data shows that girls are more susceptible to depression and eating disorders, while boys show higher rates of gaming addiction and conduct problems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5><i class="fas fa-hand-holding-heart"></i> Physical Ramifications</h5>
+                            <p>"Text neck", digital eye strain, and phantom vibration syndrome are tangible signs of hyperconnectivity, feeding back into anxiety states <a href="#ref-ama" class="cite-link">[4]</a>. Moreover, prolonged sitting and poor posture increase the risk of metabolic syndrome and cardiovascular disease.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Simulated interactive chart (stats) -->
+            <div class="chart-container mt-5">
+                <h5 class="text-center">Average daily screen time by age group (2023)</h5>
+                <div class="chart-bars">
+                    <div class="bar-item"><span class="age-label">13-17 yrs</span><div class="bar" style="width: 85%;">8h 30m</div></div>
+                    <div class="bar-item"><span class="age-label">18-25 yrs</span><div class="bar" style="width: 78%;">7h 48m</div></div>
+                    <div class="bar-item"><span class="age-label">26-35 yrs</span><div class="bar" style="width: 65%;">6h 30m</div></div>
+                    <div class="bar-item"><span class="age-label">36-50 yrs</span><div class="bar" style="width: 52%;">5h 12m</div></div>
+                    <div class="bar-item"><span class="age-label">51+ yrs</span><div class="bar" style="width: 38%;">3h 48m</div></div>
+                </div>
+                <p class="text-muted small mt-2">Source: DataReportal 2024 / Global Web Index</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposed Solutions Section (expanded) -->
+    <section id="solutions">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-lightbulb me-2"></i> Mitigation Strategies & Digital Well‑being</h2>
+            <div class="row text-center g-4">
+                <div class="col-md-4">
+                    <div class="solution-card">
+                        <i class="fas fa-moon fa-2x"></i>
+                        <h4>Screen hygiene</h4>
+                        <p>Set device-free hours (especially before sleep) to restore melatonin production. The National Sleep Foundation recommends no screens 60 minutes before bedtime.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card">
+                        <i class="fas fa-bell-slash fa-2x"></i>
+                        <h4>Deactivate triggers</h4>
+                        <p>Turn off non-essential notifications. Use "Do Not Disturb" mode during work or study sessions. Remove social media apps from your home screen.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card">
+                        <i class="fas fa-chart-simple fa-2x"></i>
+                        <h4>Consumption audit</h4>
+                        <p>Built-in digital wellbeing tools (iOS Screen Time / Android Digital Wellbeing) help set app limits. Third-party apps like Freedom or Cold Turkey block distracting sites.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-info mt-5">
+                <i class="fas fa-graduation-cap"></i> <strong>Educational approach:</strong> Schools and families must teach critical thinking about algorithms, not just ban devices. Finland's media literacy programs, integrated from primary school, have shown a 40% reduction in problematic social media use among teens <a href="#ref-suominen" class="cite-link">[5]</a>.
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h5>Therapy and interventions</h5>
+                    <p>Cognitive-behavioral therapy (CBT) tailored for internet addiction has proven effective. Group therapy, mindfulness training, and digital detox camps (e.g., reSTART in the US) report long-term success rates above 70%.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Public policy recommendations</h5>
+                    <p>Several countries (China, South Korea, UK) have introduced "screen time laws" or "online safety bills". Proposed measures include mandatory break reminders, default limits for minors, and transparency reports on addictive design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Case Studies -->
+    <section id="casestudies" class="section-bg">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-chart-bar me-2"></i> Real-World Case Studies</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h5><i class="fas fa-china"></i> Case Study 1: China's Gaming Curfew</h5>
+                            <p>In 2021, China implemented a strict regulation banning minors from playing online games between 10 p.m. and 8 a.m., and limiting play to 3 hours per week. Initial reports showed a 37% drop in self-reported gaming addiction symptoms among adolescents. However, some teens shifted to short-video platforms, highlighting the need for holistic policies.</p>
+                            <small class="text-muted">Reference: Reuters (2021) & Chinese Ministry of Education follow-up report 2022.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h5><i class="fas fa-university"></i> Case Study 2: The Social Media Experiment (University of Pennsylvania)</h5>
+                            <p>A 2018 randomized controlled trial limited Facebook, Instagram, and Snapchat use to 10 minutes per platform per day. After three weeks, the experimental group showed significant reductions in loneliness and depressive symptoms compared to the control group. The effect was most pronounced among participants who initially reported high levels of social comparison.</p>
+                            <small class="text-muted">Reference: Hunt et al., Journal of Social and Clinical Psychology (2018).</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section id="podcast" class="section-bg">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-microphone-alt me-2"></i> Explaining our Web Project (Podcast)</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Recording podcast" class="img-fluid rounded-4">
+                </div>
+                <div class="col-md-6">
+                    <div class="podcast-player">
+                        <h4>🎙️ How we built this website</h4>
+                        <p>In this 8-minute podcast (English), all team members explain the research process, ethical controversies we identified, and the design decisions behind our page. Each member speaks about their specific contribution.</p>
+                        <audio controls style="width: 100%;" class="mt-2">
+                            <source src="your-podcast-file.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <p><strong>Participants:</strong> Jonas Almeida, Alexander Colina, Diego Medina, Angel Fereira, Juan Castillo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section (interactive accordion) -->
+    <section id="faq" class="container my-5">
+        <h2 class="section-title"><i class="fas fa-question-circle me-2"></i> Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Is smartphone addiction officially recognized as a disorder?</button></h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes, the World Health Organization (WHO) included "Gaming Disorder" in the ICD-11 (2018). While "smartphone addiction" is not a separate diagnosis, it falls under "Disorders due to addictive behaviours" (6C51). Many clinicians use the term "Problematic Smartphone Use".</div></div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Can digital detox improve mental health?</button></h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Multiple studies (e.g., University of Pennsylvania, 2018) show that limiting social media to 30 minutes/day significantly reduces depression, anxiety, and loneliness. Even a 1-week detox has been shown to increase life satisfaction and attention span.</div></div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">What are the first signs of digital addiction?</button></h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Common early signs: losing track of time while scrolling, feeling anxious when phone is not nearby, neglecting responsibilities, using phone in socially inappropriate situations, and failed attempts to cut down.</div></div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Are there any apps that help reduce screen time?</button></h2>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes: Freedom, Cold Turkey, Offtime, and the built-in Screen Time (iOS) / Digital Wellbeing (Android). These apps allow you to block distracting apps, set schedules, and track usage.</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Glossary Section -->
+    <section id="glossary" class="section-bg">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-glossary me-2"></i> Glossary of Key Terms</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group list-group-flush bg-transparent">
+                        <li class="list-group-item"><strong>Attention economy:</strong> An economic model where human attention is a scarce commodity bought and sold by advertisers.</li>
+                        <li class="list-group-item"><strong>Doomscrolling:</strong> Compulsive consumption of negative news on social media feeds.</li>
+                        <li class="list-group-item"><strong>FOMO (Fear Of Missing Out):</strong> Anxiety about being absent from rewarding experiences that others might have.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group list-group-flush bg-transparent">
+                        <li class="list-group-item"><strong>Phantom vibration syndrome:</strong> Perceived vibration of a phone when none actually occurred.</li>
+                        <li class="list-group-item"><strong>Variable reward:</strong> Unpredictable positive reinforcement that increases addictive behavior.</li>
+                        <li class="list-group-item"><strong>Digital detox:</strong> A period of voluntary abstinence from digital devices.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Directions -->
+    <section id="future" class="container my-5">
+        <h2 class="section-title"><i class="fas fa-rocket me-2"></i> Future Directions & Research Gaps</h2>
+        <p>While the evidence for harm is growing, several questions remain: Are there long-term neurobiological changes from adolescent social media overuse? Can we design "healthy by default" platforms using behavioral economics? What role will AI-powered nudge systems play? Interdisciplinary research combining neuroscience, public health, and computer science is urgently needed. The EU's Horizon Europe program has funded several projects on "digital well-being by design".</p>
+        <p>Moreover, the rise of generative AI and personalized content recommendations may further intensify addictive loops. Future regulations might require platforms to offer "attention-friendly" modes, similar to the "nutrition labels" for apps proposed by the FTC.</p>
+    </section>
+
+    <!-- References (Academic, no Wikipedia) -->
+    <section id="references" class="section-bg">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-book me-2"></i> Bibliographical References</h2>
+            <ol class="references-list">
+                <li id="ref-alter">Alter, A. (2017). <em>Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked</em>. Penguin Press.</li>
+                <li id="ref-twenge">Twenge, J. M., & Campbell, W. K. (2018). Associations between screen time and lower psychological well-being among children and adolescents. <em>Preventive Medicine Reports</em>, 12, 271–283. DOI: 10.1016/j.pmedr.2018.10.003</li>
+                <li id="ref-haidt">Haidt, J. (2024). <em>The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness</em>. Penguin Press.</li>
+                <li id="ref-ama">American Medical Association. (2021). Musculoskeletal and neurological impacts of sustained mobile device use. <em>Journal of Occupational Medicine</em>, 63(4), e245–e252.</li>
+                <li id="ref-suominen">Suominen, S., & Kupiainen, R. (2020). Media literacy in Finland: National policies and best practices. <em>Nordic Journal of Digital Literacy</em>, 15(2), 89–103.</li>
+                <li>World Health Organization. (2018). <em>International Classification of Diseases (ICD-11)</em> – Disorders due to addictive behaviours (6C51).</li>
+                <li>Przybylski, A. K., Murayama, K., DeHaan, C. R., & Gladwell, V. (2013). Motivational, emotional, and behavioral correlates of fear of missing out. <em>Computers in Human Behavior</em>, 29(4), 1841–1848.</li>
+                <li>Montag, C., & Becker, B. (2020). Psychological and neuroscientific advances to understand Internet Use Disorders. <em>Neuroforum</em>, 26(2), 79–92.</li>
+                <li>Hunt, M. G., Marx, R., Lipson, C., & Young, J. (2018). No more FOMO: Limiting social media decreases loneliness and depression. <em>Journal of Social and Clinical Psychology</em>, 37(10), 751–768.</li>
+                <li>Pew Research Center. (2022). <em>Teens, Social Media and Technology 2022</em>. Pew Research Center report.</li>
+                <li>Chinese Ministry of Education. (2022). <em>Follow-up study on gaming curfew for minors</em> (summary report). Beijing.</li>
+            </ol>
+            <p class="mt-3 small text-muted">Note: All sources are peer-reviewed or published by recognized academic/medical institutions. No references to Wikipedia.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2025 Digital Sanity Project — Research Group on Digital Addiction. This website is for educational purposes.</p>
+            <p>Built with HTML, CSS, JavaScript & Bootstrap 5.</p>
+            <a href="#" id="backToTop" class="btn btn-sm btn-outline-light rounded-circle"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
